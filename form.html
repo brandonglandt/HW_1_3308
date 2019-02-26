@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h2>This is a sample form.</h2>
+  </div>
+
+  <div class="container">
+    <form action="/action_page.php">
+      <div class="form-group">
+        <label for="nickname"><b>Nickname</b></label>
+        <input type="nickname" class="form-control" id="nickname" placeholder="Enter nickname" name="nickname">
+      </div>
+      <div class="form-group">
+        <label for="email"><b>Email</b></label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email address" name="email">
+      </div>
+      <div class="form-group">
+        <label for="password"><b>Password</b></label>
+        <input type="password" class="form-control" id="password" placeholder="Enter password" name="password">
+      </div>
+
+      <b><p>Gender</p></b>
+    <div class="form-check">
+      <label class="form-check-label" for="check1">
+        <input type="checkbox" class="form-check-input" id="check1" name="Male" value="something" checked>Male
+      </label>
+    </div>
+    <div class="form-check">
+      <label class="form-check-label" for="check2">
+        <input type="checkbox" class="form-check-input" id="check2" name="Female" value="something">Female
+      </label>
+    </div>
+    <div class="form-check">
+      <label class="form-check-label" for="check3">
+        <input type="checkbox" class="form-check-input" id="check3" name="Other" value="something">Other
+      </label>
+    </div>
+    <div class="form-check">
+      <label class="form-check-label" for="check4">
+        <input type="checkbox" class="form-check-input" id="check4" name="Prefer not to say" value="something">Prefer not to say
+      </label>
+    </div>
+
+<br>
+    <div class="form-group">
+      <label for="security"><b>Security Question</b></label>
+      <select class="form-control" id="security" name="security">
+        <option>What is your favorite type of pet?</option>
+        <option>What is your mothers maiden name?</option>
+        <option>What is your fathers middle name?</option>
+        <option>In what city was your first job?</option>
+      </select>
+
+      <div class="form-group">
+        <label for="Answer"><b>Answer</b></label>
+        <input type="Answer" class="form-control" id="answer" placeholder="Security Answer" name="answer">
+      </div>
+    </div>
+
+    <p><b>Favorite Programming Languages</b></p>
+    <div class="form-check-inline">
+          <label class="form-check-label" for="check1">
+            <input type="checkbox" class="form-check-input" id="check1" name="c" value="something" checked>C/C++
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <label class="form-check-label" for="check2">
+            <input type="checkbox" class="form-check-input" id="check2" name="java" value="something">Java
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <label class="form-check-label" for="check3">
+            <input type="checkbox" class="form-check-input" id="check3" name="javascript" value="something">JavaScript
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <label class="form-check-label" for="check4">
+            <input type="checkbox" class="form-check-input" id="check4" name="python" value="something">Python
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <label class="form-check-label" for="check5">
+            <input type="checkbox" class="form-check-input" id="check5" name="go" value="something">GO
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <label class="form-check-label" for="check6">
+            <input type="checkbox" class="form-check-input" id="check6" name="c#" value="something">C#
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <label class="form-check-label" for="check7">
+            <input type="checkbox" class="form-check-input" id="check7" name="php" value="something">PHP
+          </label>
+        </div>
+
+<br>
+        <p><b>Additional Information</b></p>
+    <div class="form-group">
+      <label for="comment">About Me</label>
+      <textarea class="form-control" rows="5" id="aboutme" name="text"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+</div>
+<hr>
+</body>
+</html>

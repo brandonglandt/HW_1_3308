@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 5px;
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+<div class="container">
+  <h1>Glandt, Brandon - </h1><h2>Software Development & Tools</h2>
+</div>
+
+<div class="card">
+  <div class="card-body">I am 20 years old, I lived in New York City and I am an Eagle Scout. I am studying Computer Science because I love the concept of coding and have always been intrigued with how computers work.</div>
+</div>
+
+<div class="container">
+  <h2>My Professional Profile</h2>
+</div>
+
+<div class="container">
+  <button type="button" class="btn btn-info">Brandon's Git</button>
+</div>
+<br>
+
+<div class="container">
+  <img src="pic.jpg" class="rounded-circle" alt="Brandon Glandt" width="300" height="300">
+</div>
+<br>
+
+<div class="container">
+  <h2>My Favorite Projects</h2>
+  <table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th>Name of Projects</th>
+        <th>Technologies Used</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Git</th>
+        <th>C, C++, Python, JavaScript, Java, HTML</th>
+      </tr>
+      <tr>
+        <th>Microsoft Windows</th>
+        <th>Word, Excel, Access, OneNote, PowerPoint</th>
+      </tr>
+      <tr>
+        <th>Apple iOS</th>
+        <th>iPhone, Swift</th>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<br>
+
+<div class="container">
+  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#travel">Countries Travelled</button>
+  <div id="travel" class="collapse">
+    <ul>
+			<li>Mexico</li>
+			<li>France</li>
+			<li>Spain</li>
+			<li>United Kingdom</li>
+			<li>China</li>
+			<li>Japan</li>
+			<li>Singapore</li>
+			<li>Australia</li>
+			<li>Caribbean</li>
+			<li>Bahamas</li>
+		</ul>
+  </div>
+</div>
+<br>
+<div class="container">
+  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#interests">Interests</button>
+  <div id="interests" class="collapse">
+    <ol>
+			<li>Travelling</li>
+			<li>Music</li>
+			<li>Learning</li>
+		</ol>
+  </div>
+</div>
+
+<br>
+<div class="container">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Click Me!
+  </button>
+
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h4 class="modal-title">That's all folks!</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <div class="modal-body">
+          Modal body..
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+	</body>
+</html>
